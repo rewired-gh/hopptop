@@ -7,6 +7,7 @@
     "parcel": "^2.8.0"
   },
   "scripts": {
-    "dev": "parcel serve"
+    "dev": "parcel serve",
+    "build": "parcel build"
   }
 }
