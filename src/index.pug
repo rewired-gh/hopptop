@@ -2,7 +2,7 @@ doctype html
 html(lang="en")
   include head.pug
   include widgets.pug
-  body
+  body.js-stop-transition
     h1 __rewired__
 
     .link-list
@@ -13,6 +13,8 @@ html(lang="en")
       +link-button('Friends', './friends.pug')
     
     footer
+      p
       p rewired © 2022
       p
         a(href="https://icp.gov.moe/?keyword=20226464", target="_blank") 萌 ICP · 20226464 号
+    include script.js
